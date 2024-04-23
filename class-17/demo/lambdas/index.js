@@ -20,7 +20,8 @@ function processStream(stream) {
   });
 }
 
-const handler = async (event) => {
+// export handler = async (event) => { //  use this syntax on AWS Lambda
+const handler = async (event) => { // use this syntax when running code locally
   let { bucket, object } = event.Records[0].s3;
   console.log('HERE IS MY EVENT INFO', bucket, object);
   let getCommand = {
@@ -61,6 +62,7 @@ const handler = async (event) => {
   return response;
 };
 
+// don't do this on AWS, will cause issues since they expect .mjs files which uses the export keyword
 module.exports = {
   handler
 }
