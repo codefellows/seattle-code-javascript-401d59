@@ -1,4 +1,5 @@
-import { S3Client, GetObjectCommand, PutObjectCommand } from '@aws-sdk/client-s3';
+// import { S3Client, GetObjectCommand, PutObjectCommand } from '@aws-sdk/client-s3';
+const { S3Client, GetObjectCommand, PutObjectCommand } = require('@aws-sdk/client-s3');
 
 const s3Client = new S3Client({ region: 'us-west-2' });
 
@@ -19,7 +20,7 @@ function processStream(stream) {
   });
 }
 
-export const handler = async (event) => {
+const handler = async (event) => {
   let { bucket, object } = event.Records[0].s3;
   console.log('HERE IS MY EVENT INFO', bucket, object);
   let getCommand = {
@@ -59,3 +60,7 @@ export const handler = async (event) => {
   };
   return response;
 };
+
+module.exports = {
+  handler
+}
