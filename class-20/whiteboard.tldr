@@ -1,0 +1,1006 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 4,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 24,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 5,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 1,
+			"com.tldraw.asset.image": 3,
+			"com.tldraw.asset.video": 3,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 1,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 1,
+			"com.tldraw.shape.geo": 8,
+			"com.tldraw.shape.note": 6,
+			"com.tldraw.shape.line": 4,
+			"com.tldraw.shape.frame": 0,
+			"com.tldraw.shape.arrow": 3,
+			"com.tldraw.shape.highlight": 0,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 3,
+			"com.tldraw.shape.video": 2
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": 234.32770606099828,
+			"y": 1109.2501633182908,
+			"lastActivityTimestamp": 1714153691726,
+			"meta": {}
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"x": -166.94264697330237,
+			"y": -135.37058939778706,
+			"z": 0.554764112491902,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1220,
+				"h": 758.3333129882812
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"canMoveCamera": true,
+			"isFocused": true,
+			"devicePixelRatio": 1.2000000476837158,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"x": 339.3828353881836,
+			"y": 47.15494346618652,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:B0PIZ3bZEZzGcQhP6oZad",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 134.0208282470703,
+				"text": "Midterms!!",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 3.6647911013800267
+			},
+			"parentId": "page:page",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 183.66989898681643,
+			"y": 282.5325222015381,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:7ut1bEFgh4WILDFU0L-Iu",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 173.7083282470703,
+				"text": "Project Teams",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a2",
+			"typeName": "shape"
+		},
+		{
+			"x": 1035.1454568860877,
+			"y": 270.72248415993744,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:GLu9OZQod9puYA5r6qFWM",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 168.1223907470703,
+				"text": "Project Ideas",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a3",
+			"typeName": "shape"
+		},
+		{
+			"x": 382.16600571738354,
+			"y": 178.81181195047142,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:1BpXvzYtW-mj120kwU38X",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 392.5234375,
+				"text": "All Backend (no GUI - optional)",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a4",
+			"typeName": "shape"
+		},
+		{
+			"x": 108.07730178093803,
+			"y": 356.3209737218299,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:DAoWwiMDpHVZCE3YDsMvp",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 84.93228912353516,
+				"text": "Team 1",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a5",
+			"typeName": "shape"
+		},
+		{
+			"x": 313.4600743348612,
+			"y": 360.75202243271036,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:CY0An-63oDDvoWrNYVORz",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 91.61197662353516,
+				"text": "Team 2",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a6",
+			"typeName": "shape"
+		},
+		{
+			"x": 12.649820028698855,
+			"y": 715.7276602340779,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:9UHmRE1GLt_jCf4KdIbMQ",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 538.0572509765625,
+				"text": "Team with the most tests, gets a gold star",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a7",
+			"typeName": "shape"
+		},
+		{
+			"x": 112.55550287703738,
+			"y": 441.12052577632295,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:f3vljWbMnIMebS9sQ1cmD",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 76.5078125,
+				"text": "Brock\nIsai\nJustin",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a8",
+			"typeName": "shape"
+		},
+		{
+			"x": 325.3480841427631,
+			"y": 435.1295792330658,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:y3P1rH2zXSkr03n6o6egV",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 90.59635162353516,
+				"text": "John\nAhmed\nMak\nKawika",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a9",
+			"typeName": "shape"
+		},
+		{
+			"x": 715.8164161943647,
+			"y": 410.88163500700415,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:_BtcyZ9vcA9wcLAf_CBYE",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 384.15963353046754,
+				"text": "Things to avoid:\n\nchat apps\nsocial media stuff (twitter / facebook / reddit)\ntodo apps\nrecipe lists\ntravel / general blog\ntext based adventure games",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aA",
+			"typeName": "shape"
+		},
+		{
+			"x": 1315.327513359221,
+			"y": 451.1631624338438,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:kFm4vJvYtBZFnoUnGv65K",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 485.5703125,
+				"text": "Database of movies / actors / tv shows",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1.0163995588178403
+			},
+			"parentId": "page:page",
+			"index": "aB",
+			"typeName": "shape"
+		},
+		{
+			"x": 1309.9206093540895,
+			"y": 501.5321341211029,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:1v-loShHdxW0jCys2_Fse",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 553.7757250542338,
+				"text": "System for generating blog content (CMS)",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1.0587813348709734
+			},
+			"parentId": "page:page",
+			"index": "aC",
+			"typeName": "shape"
+		},
+		{
+			"x": 1388.4889038380913,
+			"y": 372.8049207715047,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:TT_6lEcNV6ZG5OfmmiEWQ",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 508.1360126094367,
+				"text": "Things that will impress job offerers",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aD",
+			"typeName": "shape"
+		},
+		{
+			"x": 1298.123550566939,
+			"y": 552.6666451460384,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:aGQUQq1EYrbQMhyuxE03-",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 812.7858780629001,
+				"text": "integration with existing services(discord bots / slack bots / AI)",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1.0183226592748942
+			},
+			"parentId": "page:page",
+			"index": "aE",
+			"typeName": "shape"
+		},
+		{
+			"x": 1319.2513890369376,
+			"y": 661.4633538932435,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:RfMZPFiVPRnZkGyVd6P6R",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 151.41665649414062,
+				"text": "raspberry pi",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aF",
+			"typeName": "shape"
+		},
+		{
+			"x": 1309.9401334207473,
+			"y": 726.7645215969056,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:VLDaBOdDJ9ucloW0xjiT2",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 501.1432189941406,
+				"text": "AWS tools (ec2 / lambda / s3 / sns / sqs)",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aG",
+			"typeName": "shape"
+		},
+		{
+			"x": 1669.4437047636154,
+			"y": 608.5925781422702,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:rE_eul3OWaLjfGEjwfddd",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 347.4713439941406,
+				"text": "information validation tools",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aH",
+			"typeName": "shape"
+		},
+		{
+			"x": 1314.7433498327741,
+			"y": 803.5303402582576,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:QQa3RtIXA1r_53T1L4-Sx",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 272.22393798828125,
+				"text": "location based search",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aI",
+			"typeName": "shape"
+		},
+		{
+			"x": 1318.440980945173,
+			"y": 868.6346988915855,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:eGnWP4DLZ-rofb2JVmxxI",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 231.8333282470703,
+				"text": "multiplayer games",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aJ",
+			"typeName": "shape"
+		},
+		{
+			"x": 609.7870809814428,
+			"y": 1185.3385930483612,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:LLqtlLHXhlHeUbBYObn3t",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 581.5213240759049,
+				"text": "1 week sprint\n\nNot enough time to solve more than 1 thing we haven't solved before.",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aK",
+			"typeName": "shape"
+		},
+		{
+			"x": 1385.1542018179694,
+			"y": 1092.8703836328616,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:rAkR1F53onX7bG5hplx4S",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 518.4739379882812,
+				"text": "Technologies covered\n\nAuthentication - brcrypt / jwts / auth0\nREST CRUD APP - Express Sequelize\nObserver pattern (pub/sub socket.io / sns)\nMessage Queuing\nData Modeling (mongoose / sequelize)\nAWS",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aL",
+			"typeName": "shape"
+		},
+		{
+			"x": 626.3426175106074,
+			"y": 870.1115503537491,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:6mUgbffucZ1fCz7uPhIto",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 283.1744689941406,
+				"text": "\"Simple\" ideas are fine",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 2.0077709626874656
+			},
+			"parentId": "page:page",
+			"index": "aM",
+			"typeName": "shape"
+		},
+		{
+			"x": 685.734326809458,
+			"y": 955.8863542553723,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:LBPwx3CY9B1B9fPgY_Nkc",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 345.2838439941406,
+				"text": "customer evaluating bank??\nsecurity / reliability.\n\nPerformant ",
+				"font": "draw",
+				"align": "middle",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aN",
+			"typeName": "shape"
+		},
+		{
+			"x": 760.6913331711316,
+			"y": 1047.305551644811,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:D921CsIzCkC-9xteD2krz",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": -0.52,
+								"y": 0.79,
+								"z": 0.5
+							},
+							{
+								"x": -0.72,
+								"y": 2.06,
+								"z": 0.5
+							},
+							{
+								"x": -2.15,
+								"y": 5.55,
+								"z": 0.5
+							},
+							{
+								"x": -5.65,
+								"y": 11.18,
+								"z": 0.5
+							},
+							{
+								"x": -9.45,
+								"y": 16.85,
+								"z": 0.5
+							},
+							{
+								"x": -12.75,
+								"y": 21.68,
+								"z": 0.5
+							},
+							{
+								"x": -15.73,
+								"y": 25.67,
+								"z": 0.5
+							},
+							{
+								"x": -17.71,
+								"y": 28.14,
+								"z": 0.5
+							},
+							{
+								"x": -19.02,
+								"y": 29.28,
+								"z": 0.5
+							},
+							{
+								"x": -19.91,
+								"y": 30,
+								"z": 0.5
+							},
+							{
+								"x": -20.43,
+								"y": 30.69,
+								"z": 0.5
+							},
+							{
+								"x": -20.97,
+								"y": 31.38,
+								"z": 0.5
+							},
+							{
+								"x": -21.71,
+								"y": 32.07,
+								"z": 0.5
+							},
+							{
+								"x": -22.64,
+								"y": 32.77,
+								"z": 0.5
+							},
+							{
+								"x": -23.75,
+								"y": 33.49,
+								"z": 0.5
+							},
+							{
+								"x": -24.8,
+								"y": 34.21,
+								"z": 0.5
+							},
+							{
+								"x": -25.44,
+								"y": 34.9,
+								"z": 0.5
+							},
+							{
+								"x": -25.69,
+								"y": 35.03,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false
+			},
+			"parentId": "page:page",
+			"index": "aO",
+			"typeName": "shape"
+		},
+		{
+			"x": 734.699123696643,
+			"y": 1053.1087199387696,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:5__AjnlHQb1fomeV4w75w",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": -0.23,
+								"y": 0.52,
+								"z": 0.5
+							},
+							{
+								"x": 0.44,
+								"y": 0.71,
+								"z": 0.5
+							},
+							{
+								"x": 2.42,
+								"y": 1.82,
+								"z": 0.5
+							},
+							{
+								"x": 5.62,
+								"y": 3.48,
+								"z": 0.5
+							},
+							{
+								"x": 8.9,
+								"y": 5.31,
+								"z": 0.5
+							},
+							{
+								"x": 12.84,
+								"y": 8.27,
+								"z": 0.5
+							},
+							{
+								"x": 16.87,
+								"y": 11.54,
+								"z": 0.5
+							},
+							{
+								"x": 20.23,
+								"y": 14.58,
+								"z": 0.5
+							},
+							{
+								"x": 22.63,
+								"y": 17.46,
+								"z": 0.5
+							},
+							{
+								"x": 24.25,
+								"y": 20.14,
+								"z": 0.5
+							},
+							{
+								"x": 25.74,
+								"y": 22.68,
+								"z": 0.5
+							},
+							{
+								"x": 26.84,
+								"y": 24.81,
+								"z": 0.5
+							},
+							{
+								"x": 27.93,
+								"y": 26.75,
+								"z": 0.5
+							},
+							{
+								"x": 29.02,
+								"y": 28.43,
+								"z": 0.5
+							},
+							{
+								"x": 29.77,
+								"y": 29.76,
+								"z": 0.5
+							},
+							{
+								"x": 30.38,
+								"y": 30.93,
+								"z": 0.5
+							},
+							{
+								"x": 30.62,
+								"y": 32.09,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false
+			},
+			"parentId": "page:page",
+			"index": "aP",
+			"typeName": "shape"
+		},
+		{
+			"x": 910.0863510080744,
+			"y": 1085.573705333951,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ggz_sCnMs2YBXddB2Wjb6",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": -0.51,
+								"y": 1.14,
+								"z": 0.5
+							},
+							{
+								"x": 0.08,
+								"y": 4.42,
+								"z": 0.5
+							},
+							{
+								"x": 2.41,
+								"y": 9.47,
+								"z": 0.5
+							},
+							{
+								"x": 5.68,
+								"y": 13.71,
+								"z": 0.5
+							},
+							{
+								"x": 9.65,
+								"y": 17.31,
+								"z": 0.5
+							},
+							{
+								"x": 14.09,
+								"y": 20.04,
+								"z": 0.5
+							},
+							{
+								"x": 17.26,
+								"y": 21.22,
+								"z": 0.5
+							},
+							{
+								"x": 19.69,
+								"y": 21.27,
+								"z": 0.5
+							},
+							{
+								"x": 21.53,
+								"y": 18.17,
+								"z": 0.5
+							},
+							{
+								"x": 23.29,
+								"y": 10.04,
+								"z": 0.5
+							},
+							{
+								"x": 25.82,
+								"y": -1.39,
+								"z": 0.5
+							},
+							{
+								"x": 28.02,
+								"y": -11.64,
+								"z": 0.5
+							},
+							{
+								"x": 30.09,
+								"y": -18.89,
+								"z": 0.5
+							},
+							{
+								"x": 32.33,
+								"y": -24.4,
+								"z": 0.5
+							},
+							{
+								"x": 33.97,
+								"y": -27.17,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false
+			},
+			"parentId": "page:page",
+			"index": "aQ",
+			"typeName": "shape"
+		}
+	]
+}
