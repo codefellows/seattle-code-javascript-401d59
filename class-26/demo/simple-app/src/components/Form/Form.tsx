@@ -10,11 +10,11 @@ interface FormProps {
 
 function Form(props: FormProps): React.ReactElement {
 
-  const handleSubmit = (e: React.FormEvent): void => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
     // grab values from event objects
-    const urlValue = e.target.url.value;
-    const srcValue = e.target.src.value;
+    const urlValue = e.currentTarget.url.value;
+    const srcValue = e.currentTarget.src.value;
     props.onSubmit(urlValue, srcValue);
   }
 
