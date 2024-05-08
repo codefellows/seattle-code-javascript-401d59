@@ -23,9 +23,9 @@ describe("Form Component", () => {
     expect(await screen.getByText(/DELETE/)).toBeVisible();
   });
   test('Calls a function on submit', async() => {
-    const state = { results: { method: null, url: null} };
+    let state: { method: string | null, url: string | null } = { method: null, url: null };
     const testFunction = (param: {method: string, url: string}) => {
-      state.results = param;
+      state = param;
     }
 
     render(<Form handleSubmit={testFunction}/>)
@@ -34,5 +34,7 @@ describe("Form Component", () => {
     fireEvent.click(postBtn);
     fireEvent.change(urlInput, { target: { value: 'test' }});
     fireEvent.click(await screen.getByText('GO'));
+    expect(state.url).toEqual('test');
+    expect(state.method).toEqual('POST');
   }); 
 });

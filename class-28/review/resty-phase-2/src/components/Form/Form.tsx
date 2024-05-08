@@ -5,13 +5,11 @@ interface FormProps {
 }
 
 function Form({ handleSubmit }: FormProps): React.ReactElement {
-  const [loading, setLoading] = useState(false);
-  const [method, setMethod] = useState('GET');
   const [url, setUrl] = useState('');
+  const [method, setMethod] = useState('GET');
 
-  const handleEvent = (e: React.FormEvent): void => {
+  const handleEvent = (e: React.FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
-    let url = e.currentTarget.url.value;
     console.log('form inputs', { method, url });
     handleSubmit({ method, url });
   }
@@ -19,7 +17,7 @@ function Form({ handleSubmit }: FormProps): React.ReactElement {
   return (
     // render text input for URL, buttons for request method, textarea for JSON body.
     <form onSubmit={handleEvent}>
-      <input data-testid="url-input" type="text" name="url" />
+      <input data-testid="url-input" type="text" onChange={(e) => setUrl(e.target.value)} />
       <div>
         <button onClick={() => setMethod('GET')}>GET</button>
         <button onClick={() => setMethod("POST")}>POST</button>
