@@ -80,7 +80,7 @@ function LoginProvider({ children }) {
   }, []);
 
   return (
-    <LoginContext.Provider value={{ user, loggedIn, can, login, logout, user, error }}>
+    <LoginContext.Provider value={{ user, loggedIn, can, login, logout, error }}>
       {children}
     </LoginContext.Provider>
   );
