@@ -1,13 +1,13 @@
-# Warm Up - Async
+# Warm Up - The Holy Grail
 
-This exercise is designed to ensure that you have a solid grasp on async programming in javascript as well as to re-use some of core programming concepts of the language and managing basic data structures.
+Having a fingertips ready scaffold of a core web layout, with responsive rules, using a number of layout tools is essential. Your ability to recognize these common visual patterns and understand what Grid and Flexbox are doing for you should be a stable starting point for any web project.
 
-- Write a function called `fetchPeopleWithPromises()` that will:
-  - Use superagent to load content from the Star Wars API
-    - <https://swapi.co/api/people/>
-  - Reduce the results array (an array of people objects) into an simpler array of urls from the person's `url` property
-  - Go through that array, fetching each person's data with superagent, building up an array of promises
-  - Use promise.all to collect all of the responses at once.
-  - When all of the promises have resolved, print a list of each person's name
+**Implement a Responsive Holy Grail Layout using Float, Flexbox and CSS Grid. By Hand.**
 
-- Repeat the process, but this time using a function called `fetchPeopleWithAsync()` which uses async and await to return you a list of people
+- You may use a reset.
+- Block out all of the sections as shown (no content required)
+- Desktop View: Render as shown
+- Mobile View: Stack: Header -> Content -> Left -> Right -> Footer
+- Header: Add a Horizontal Menu, transform to hamburger
+
+![Holy Grail](assets/holy-grail-layout.png)
